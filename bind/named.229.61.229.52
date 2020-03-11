@@ -1,0 +1,14 @@
+$TTL	600
+@	IN	SOA	jameshsu.csie.org.	jameshsu.csie.org.	(
+					1999051403	; Serial
+					3600		; Refresh
+					300		; Retry
+					36000000	; Expire
+					3600	)	; Minimum
+@	IN	NS		james.yfcgroup.net.
+
+@	IN	PTR		jameshsu.csie.org.
+@	IN	PTR		gitlab.jameshsu.csie.org.
+@	IN	PTR		blog.jameshsu.csie.org.
+@	IN	PTR		cool.jameshsu.csie.org.
+@	IN	PTR		mail.jameshsu.csie.org.

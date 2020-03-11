@@ -1,0 +1,70 @@
+//
+// Do any local configuration here
+//
+
+
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+
+zone "jameshsu.csie.org" IN{
+	type master;
+	file "/etc/bind/named.jameshsu.csie.org.";
+};
+zone "b07902001.com" IN{
+	type master;
+	file "/etc/bind/named.b07902001";
+};
+
+zone "gitlab.jameshsu.csie.org" IN{
+	type master;
+	file "/etc/bind/named.jameshsu.csie.org.";
+};
+
+zone "blog.jameshsu.csie.org" IN{
+	type master;
+	file "/etc/bind/named.jameshsu.csie.org.";
+};
+
+
+zone "cool.jameshsu.csie.org" IN{
+	type master;
+	file "/etc/bind/named.jameshsu.csie.org.";
+};
+
+zone "test.jameshsu.csie.org" IN{
+	type master;
+	file "/etc/bind/named.jameshsu.csie.org.";
+};
+
+zone "linebot.jameshsu.csie.org" IN{
+	type master;
+	file "/etc/bind/named.jameshsu.csie.org.";
+};
+
+zone "mail.jameshsu.csie.org" IN{
+	type master;
+	file "/etc/bind/named.jameshsu.csie.org.";
+};
+
+zone "229.61.229.52.in-addr.arpa" IN{
+	type master;
+	file "/etc/bind/named.229.61.229.52";
+};
+
+zone "bbs.jameshsu.csie.org" IN{
+	type master;
+	file "/etc/bind/named.jameshsu.csie.org.";
+};
+
+zone "www.jameshsu.csie.org" IN{
+	type master;
+	file "/etc/bind/named.jameshsu.csie.org.";
+};
+
+zone "test-cd.jameshsu.csie.org" IN{
+	type master;
+	file "/etc/bind/named.jameshsu.csie.org.";
+};
+
+

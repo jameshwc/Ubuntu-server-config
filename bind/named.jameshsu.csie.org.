@@ -1,0 +1,31 @@
+$TTL	600
+@	IN	SOA	jameshsu.csie.org.	jameshsu.csie.org.	(
+					1999051403	; Serial
+					3600		; Refresh
+					300		; Retry
+					36000000	; Expire
+					3600	)	; Minimum
+@	IN	NS		james.yfcgroup.net.
+@	IN	NS		jameshsu.yfcgroup.net.
+@	IN	NS		dns-james.csie.org.
+@	IN	TXT		"MS=ms97872519"
+@				IN	A	52.229.61.229
+gitlab				IN	A	52.229.61.229
+blog				IN	A	52.229.61.229
+cool				IN	A	52.229.61.229
+test				IN	A	52.229.61.229
+linebot				IN	A	52.229.61.229
+mail				IN	A	52.229.61.229
+@			IN	MX	10	mail.jameshsu.csie.org.
+bbs				IN	A	52.229.61.229
+www				IN	A	52.229.61.229
+test-cd				IN	A	52.229.61.229
+_acme-challenge			TXT	jZqXwRRNjNwm-jZ139TjR9QJd3dJEFx3lHu8yrenYPA
+jenkins				IN	A	52.229.61.229
+drone	IN	A	52.229.61.229
+tech-blog	IN	A	52.229.61.229
+prometheus	IN	A	52.229.61.229
+grafana	IN	A	52.229.61.229
+grafana	IN	A	52.229.61.229
+vts	IN	A	52.229.61.229
+vts	IN	A	52.229.61.229
